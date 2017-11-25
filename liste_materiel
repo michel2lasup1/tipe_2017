@@ -1,0 +1,12 @@
+    Module BOUTON :
+- un bouton poussoir //bouton principal
+- une led //variation de couleur pour indication
+
+
+
+
+
+
+    AUTRES :
+- un écran LCD //affichage du numéro de série pour créer une bombe random
+
