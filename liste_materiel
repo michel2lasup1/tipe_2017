@@ -1,6 +1,7 @@
     Module BOUTON :
 - un bouton poussoir //bouton principal
-- une led //variation de couleur pour indication
+- une LED RGB //variation de couleur pour indication
+- 2 LED simple //allumage des LEDs des mentions
 
 
 
