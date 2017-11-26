@@ -3,6 +3,11 @@
 - une LED RGB //variation de couleur pour indication
 - 2 LED simple //allumage des LEDs des mentions
 
+    Module ACCELEROMETRE :
+ - 3 boutons poussoir //sur chaque face du cube pour la résolution énigme
+ - un accéléromètre //mouvement pour résolution énigme (8 pins) ?
+ - un écran LCD //peut être petit, juste pour afficher un chiffre
+    -> on pourrait d'ailleurs le remplacer par 4 leds qui montre des chiffres
 
 
 
