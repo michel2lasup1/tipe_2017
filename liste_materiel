@@ -15,4 +15,4 @@
     AUTRES :
 - un écran LCD //affichage du numéro de série pour créer une bombe random
 - 2 LED simple //allumage des LEDs des mentions module bouton
-
+- écran LCD (ou juste à chiffres) pour le Timer
