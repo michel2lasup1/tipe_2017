@@ -16,7 +16,7 @@ Trouvez le bon film correspondant à la description trouvée pour décoder ce mo
   Alors le personnage principal du film a été incarné par plusieurs acteurs
   
   Si il y exactement 1 voyelle dans le numéro de série : //F
-  #Alors le film cherché est un film de Quentin Tarantino
+  Alors le film cherché est un film de Quentin Tarantino
   
   
 //Faire un diagramme de gant !! 
