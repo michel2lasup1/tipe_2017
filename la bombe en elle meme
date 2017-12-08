@@ -1,0 +1,39 @@
+il faut prendre une arduino mega 2650 : https://store.arduino.cc/arduino-mega-2560-rev3
+
+pour le timer :
+https://www.arduino.cc/reference/en/language/functions/time/millis/
+
+unsigned long time;
+
+void setup(){
+  Serial.begin(9600);
+}
+void loop(){
+  Serial.print("Time: ");
+  time = millis();
+
+  Serial.println(time);    //prints time since program started
+  delay(1000);             // wait a second so as not to send massive amounts of data
+}
+
+
+pour le son:
+http://www.instructables.com/id/How-to-use-a-Buzzer-Arduino-Tutorial/
+
+const int buzzer = 9; //buzzer to arduino pin 9
+
+
+void setup(){
+ 
+  pinMode(buzzer, OUTPUT); // Set buzzer - pin 9 as an output
+
+}
+
+void loop(){
+ 
+  tone(buzzer, 1000); // Send 1KHz sound signal...
+  delay(1000);        // ...for 1 sec
+  noTone(buzzer);     // Stop sound...
+  delay(1000);        // ...for 1sec
+  
+}
